@@ -125,7 +125,6 @@ html {
         padding: 2rem;
         padding-top: 0rem;
     }
-
     .slogan {
         text-align: center;
         font-family: 'SF UI Display', Helvetica, sans-serif;
@@ -169,61 +168,57 @@ html {
         font-weight: 500;
         font-style: normal;
     }
-
     .header {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    align-items: center;
-    height: 8rem;
-    .logo {
-        display: none;
-    }
-    .nav-menu {
-        display: inline-flex;
-        align-items: center;
+        display: flex;
+        width: 100%;
         justify-content: flex-end;
-        position: relative;
-        width:100%;
-        ul {
-            list-style: none;
-            display: flex;
-            position: absolute;
-            top: 200%;
-            flex-direction: column;
+        align-items: center;
+        height: 8rem;
+        .logo {
+            display: none;
+        }
+        .nav-menu {
+            display: inline-flex;
+            align-items: center;
+            justify-content: flex-end;
+            position: relative;
             width: 100%;
-            background-color: $deepblue;
-            justify-content:center;
-            height: 40rem;
-            z-index: +1;
-            right: 0%;
-
-            &.active {
-                display: none;
-            }
-            li {
-                padding: 3rem;
+            ul {
+                list-style: none;
                 display: flex;
-                a {
-                    text-decoration: none;
-                    color: $white;
-                    font-size: 1.6rem;
-                    font-family: 'SF UI Text', Helvetica, sans-serif;
-                    font-weight: 500;
-                    font-style: normal
+                position: absolute;
+                top: 200%;
+                flex-direction: column;
+                width: 100%;
+                background-color: $deepblue;
+                justify-content: center;
+                height: 40rem;
+                z-index: +1;
+                right: 0%;
+                &.active {
+                    display: none;
+                }
+                li {
+                    padding: 3rem;
+                    display: flex;
+                    a {
+                        text-decoration: none;
+                        color: $white;
+                        font-size: 1.6rem;
+                        font-family: 'SF UI Text', Helvetica, sans-serif;
+                        font-weight: 500;
+                        font-style: normal
+                    }
                 }
             }
         }
     }
-}
-
-.toggle-nav {
-    display:flex;
-    text-decoration: none;
-    font-size: 2rem;
-    color: $white;
-}
-    
+    .toggle-nav {
+        display: flex;
+        text-decoration: none;
+        font-size: 2rem;
+        color: $white;
+    }
 }
 
 .section {
@@ -482,7 +477,6 @@ html {
 }
 
 @media screen and (max-width: 768px) and (min-width: 320px) {
-    
     .faq-bg {
         padding: 2rem;
         padding-top: 0rem;
@@ -501,7 +495,6 @@ html {
 }
 
 @media screen and (max-width: 768px) and (min-width: 320px) {
-    
     .bg-text {
         font-size: 3.2rem;
     }
@@ -530,7 +523,6 @@ html {
 }
 
 @media screen and (max-width: 768px) and (min-width: 320px) {
-    
     .faq-question {
         padding-left: 2rem;
         padding-right: 2rem;
@@ -597,15 +589,12 @@ html {
             font-size: 4rem;
         }
     }
-
     .ln-button {
-    flex-direction: column;
-   
-}
-
-.landing {
-    button {
-        padding-top: 1rem;
+        flex-direction: column;
     }
-}
+    .landing {
+        button {
+            margin: 1rem;
+        }
+    }
 }
