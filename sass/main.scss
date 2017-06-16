@@ -196,6 +196,7 @@ html {
             justify-content:center;
             height: 40rem;
             z-index: +1;
+            right: 0%;
 
             &.active {
                 display: none;
@@ -596,4 +597,15 @@ html {
             font-size: 4rem;
         }
     }
+
+    .ln-button {
+    flex-direction: column;
+   
+}
+
+.landing {
+    button {
+        padding-top: 1rem;
+    }
+}
 }
