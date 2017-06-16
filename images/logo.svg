@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="221px" height="37px" viewBox="0 0 221 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>SmartAlumni Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M39.2766795,5 L14.7233205,5 C10.4577144,5 7,8.51069201 7,12.841654 L7,26.3357279 C7,30.6666899 10.4577144,34.1773819 14.7233205,34.1773819 L39.2766795,34.1773819 C39.5511756,34.1773819 39.8186533,34.1678807 40.0822318,34.1757983 L39.9886536,34.1757983 C40.3809022,34.1757983 41.4352166,34.0926629 42.1315943,34.8321727 C42.3234296,35.0031942 42.5098062,35.1805498 42.6907241,35.3642396 L43.7286622,36.423623 C44.9334815,37.6524444 47,36.786252 47,35.0522837 L47,26.3357279 L47,19.781486 L47,12.841654 C47,8.51069201 43.5422856,5 39.2766795,5" id="path-1"></path>
+        <filter x="-5.0%" y="-6.2%" width="110.0%" height="112.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.134290873   0 0 0 0 0.342689389   0 0 0 0 0.590162628  0 0 0 0.687952899 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M17.5211608,18 L41.2842721,18 C41.6795366,18 42,17.691579 42,17.3111679 L42,10.6888321 C42,10.308421 41.6795366,10 41.2842721,10 L17.5211608,10 C15.5763336,10 14,11.5170977 14,13.3888415 L14,14.6111585 C14,16.4829023 15.5763336,18 17.5211608,18" id="path-3"></path>
+        <filter x="-14.3%" y="-25.0%" width="128.6%" height="200.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.113202072   0 0 0 0 0.255836303   0 0 0 0 0.425382653  0 0 0 0.371659873 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M38.4788392,29 L14.7157279,29 C14.3204634,29 14,28.691579 14,28.3111679 L14,21.6888321 C14,21.308421 14.3204634,21 14.7157279,21 L38.4788392,21 C40.4236664,21 42,22.5170977 42,24.3888415 L42,25.6111585 C42,27.4829023 40.4236664,29 38.4788392,29" id="path-5"></path>
+        <filter x="-14.3%" y="-25.0%" width="128.6%" height="200.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.113202072   0 0 0 0 0.255836303   0 0 0 0 0.425382653  0 0 0 0.371659873 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SmartAlumni-website" transform="translate(-143.000000, -32.000000)">
+            <g id="Header">
+                <g id="SmartAlumni-Logo" transform="translate(143.000000, 28.000000)">
+                    <text id="SmartAlumni" font-family=".SFNSDisplay, .SF NS Display" font-size="24" font-weight="normal" line-spacing="45" letter-spacing="1.92000008" fill="#FFFFFF">
+                        <tspan x="66.5317965" y="23">SmartAlumni</tspan>
+                    </text>
+                    <g id="SA-Logo" transform="translate(0.000000, 4.000000)">
+                        <g id="Fill-1">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Fill-5">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="#1E4679" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                        <g id="Fill-8">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                            <use fill="#1E4679" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        </g>
+                        <path d="M53.2586953,1 L0.741304724,1 C0.33171829,1 0,0.852237253 0,0.669788415 L0,0.330211585 C0,0.147762747 0.33171829,0 0.741304724,0 L53.2586953,0 C53.6682817,0 54,0.147762747 54,0.330211585 L54,0.669788415 C54,0.852237253 53.6682817,1 53.2586953,1" id="Fill-10" fill="#FFFFFF"></path>
+                        <polygon id="Fill-13" fill="#FFFFFF" points="51 11 52 11 52 0 51 0"></polygon>
+                        <path d="M50.1295122,15 C50.0578049,15 50,14.9285391 50,14.8398915 L50,12.627318 C50,11.7281773 50.5890244,11 51.3156098,11 L51.6836585,11 C52.4109756,11 53,11.7281773 53,12.627318 L53,14.8398915 C53,14.9285391 52.9421951,15 52.8704878,15 L50.1295122,15 Z" id="Fill-15" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
