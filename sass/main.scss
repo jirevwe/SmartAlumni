@@ -644,11 +644,11 @@ html {
         text-align: center;
         margin-bottom: 4rem;
     }
-    input[type=text] {
-        height: 7.3rem;
+    input[type=text], input[type=email] {
+        height: 6rem;
         width: 100%;
-        padding: 1.2rem 2rem;
-        margin: 0.8rem 0;
+        padding: 1rem 2rem;
+        margin: 0.5rem 0;
         display: inline-flex;
         border-bottom: 1px solid #979797;
         border-top: 0;
@@ -660,22 +660,7 @@ html {
         font-weight: normal;
         font-size: 1.8rem;
     }
-    input[type=email] {
-        height: 7.3rem;
-        width: 100%;
-        padding: 1.2rem 2rem;
-        margin: 0.8rem 0;
-        display: inline-flex;
-        border-bottom: 1px solid #979797;
-        border-top: 0;
-        border-left: 0;
-        border-right: 0;
-        box-sizing: border-box;
-        font-family: 'SF UI Text', Helvetica, sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.8rem;
-    }
+
     input[type=submit] {
         width: 21.2rem;
         max-width: 100%;
